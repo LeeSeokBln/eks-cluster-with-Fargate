@@ -45,12 +45,15 @@ systemctl restart sshd
 ```
 ![Untitled](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/324d1122-a039-49df-87c3-9ed03392a3c0)
 해당 Instance가 정상 적으로 생성이 되었는지 확인
-![Untitled](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/25f9710d-e21a-4a3e-bd3d-1748de6af8f4)
+![image](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/d5da2a4e-b12f-4de5-bd62-fb3da9399c3d)
+
 ### Connection to EKS Instance
-![Untitled](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/3bf2e73e-57c9-45f0-9844-2b8bdcd60abf)
-![Untitled](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/7cd348ac-6785-4f9a-b087-c5097b168b46)
-![Untitled](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/f0b65741-3a6b-4290-b1b4-8fa89a141216)
-![Untitled](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/034f3050-cc05-4504-b71c-42869c1af26f)
+![image](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/d2d2057e-cb0d-4603-a3f0-018301a57619)
+
+![image](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/a08ce38a-20a9-4728-9b36-03f2d45272fd)
+
+![image](https://github.com/LeeSeokBln/eks-cluster-with-Fargate/assets/101256150/4d457b90-e33c-4dd6-a36d-9e22bfb41885)
+
 kubectl 설치
 ```
 curl -o kubectl https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.7/2022-06-29/bin/linux/amd64/kubectl
