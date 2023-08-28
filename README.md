@@ -110,8 +110,8 @@ metadata:
 vpc:
   subnets:
     private:
-      us-east-2a: { id: subnet-076137945cd7acb36 }
-      us-east-2b: { id: subnet-028968e58b0b8bdb8 }
+      us-east-2a: { id:  }
+      us-east-2b: { id:  }
 
 fargateProfiles:
   - name: flask-fargate-profile
@@ -199,7 +199,7 @@ $ eksctl create iamserviceaccount \
   --cluster=eks-cluster\
   --namespace=kube-system \
   --name=aws-load-balancer-controller \
-  --attach-policy-arn=arn:aws:iam::948216186415:policy/AWSLoadBalancerControllerIAMPolicy \
+  --attach-policy-arn=arn:aws:iam::<계정id>:policy/AWSLoadBalancerControllerIAMPolicy \
   --override-existing-serviceaccounts \
   --approve
 ```
@@ -222,7 +222,7 @@ $ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
     --set serviceAccount.name=aws-load-balancer-controller \
     -n kube-system \
     --set region="us-east-2" \
-    --set vpcId="vpc-09069ffef05a68d26" 
+    --set vpcId="  " 
 ```
 Public Subnet에 아래와 같은 Tag를 추가
 
